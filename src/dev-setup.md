@@ -6,3 +6,4 @@ To set up the development environment for this project, follow the steps below:
 
 ## Installation
 1. Clone the repository to your local machine:
+> https://github.com/CLPeh/promotion-tool-example.git

@@ -9,7 +9,9 @@ Please read these guidelines before contributing to Json.NET:
  - [Contributor License Agreement](#cla)
 
 ## <a name="question"></a> Got a Question or Problem?
-If you have questions about how to use .NET Core, please read the [.NET Core Overview](https://www.tutorialsteacher.com/core/dotnet-core) or ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/.net-core). There are thousands of .NET Core questions on Stack Overflow with the [.NET Core](https://stackoverflow.com/questions/tagged/.net-core) tag.
+If you have questions about how to use .NET Core, please read the [.NET Core Overview](https://www.tutorialsteacher.com/core/dotnet-core) 
+or ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/.net-core). There are thousands of .NET Core questions on 
+Stack Overflow with the [.NET Core](https://stackoverflow.com/questions/tagged/.net-core) tag.
 
 GitLab issues are only for [reporting bugs](#issue) and [feature requests](#feature), not questions or help.
 
@@ -22,10 +24,9 @@ with a fix.
 When submitting an issue please include the following information:
 
 - A description of the issue
-- The JSON, classes, and Json.NET code related to the issue
+- The C#, classes, and .NET Core code related to the issue
 - The exception message and stacktrace if an error was thrown
-- If possible, please include code that reproduces the issue. [DropBox][dropbox] or GitHub's
-[Gist][gist] can be used to share large code samples, or you could
+- If possible, please include code that reproduces the issue. You could
 [submit a pull request](#pullrequest) with the issue reproduced in a new test.
 
 The more information you include about the issue, the more likely it is to be fixed!
@@ -36,18 +37,15 @@ The more information you include about the issue, the more likely it is to be fi
 You can request a new feature by submitting an issue to the [GitHub Repository][github]. Before
 requesting a feature consider the following:
 
-- Json.NET has many extensibility points, it is possible you can implement your feature today without
-modifying Json.NET
-- Stability is important. Json.NET is used by thousands of other libraries and features that require
-large breaking changes are unlikely to be accepted
+> pending...
 
 
 ## <a name="pullrequest"></a> Submitting a Pull Request
 
 When submitting a pull request to the [GitHub Repository][github] make sure to do the following:
 
-- Check that new and updated code follows Json.NET's existing code formatting and naming standard
-- Run Json.NET's unit tests to ensure no existing functionality has been affected
+- Check that new and updated code follows .NET Core's existing code formatting and naming standard
+- Run .NET Core's unit tests to ensure no existing functionality has been affected
 - Write new unit tests to test your changes. All features and fixed bugs must have tests to verify
 they work
 
@@ -55,12 +53,12 @@ Read [GitHub Help][pullrequesthelp] for more details about creating pull request
 
 
 ## <a name="cla"></a> Contributor License Agreement
-> On hold...
+> pending...
 
 
-[github]: https://github.com/JamesNK/Newtonsoft.Json
+[github]: https://github.com/CLPeh/promotion-tool-example
 [documentation]: https://www.newtonsoft.com/json/help
-[stackoverflow]: https://stackoverflow.com/questions/tagged/json.net
+[stackoverflow]: https://stackoverflow.com/questions/tagged/.net-core
 [dropbox]: https://www.dropbox.com
 [gist]: https://gist.github.com
 [pullrequesthelp]: https://help.github.com/articles/using-pull-requests

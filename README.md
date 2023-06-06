@@ -2,7 +2,7 @@
 
 - [Contributing Guidelines](./src/contributing-guildelines.md)
 - [Development Setup](./src/development-setup.md)
-- [Release Notes](https://gitlab.sige.la/pg-backend-group/pg-backend-service/pg-service-promotion-tool/-/releases)
+- [Release Notes](https://github.com/CLPeh/promotion-tool-example/releases)
 - [Architecture and Design](./src/architecture-design.md)
 - [API and Interfaces](./src/api-interfaces.md)
 - [Testing and Quality Assurance](./src/testing-qa.md)

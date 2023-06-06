@@ -1,9 +1,9 @@
 # PromotionTool
 
 - [Contributing Guidelines](./src/contributing-guildelines.md)
-- [Development Setup](development-setup.md)
+- [Development Setup](./src/development-setup.md)
 - [Release Notes](https://gitlab.sige.la/pg-backend-group/pg-backend-service/pg-service-promotion-tool/-/releases)
-- [Architecture and Design](architecture-design.md)
-- [API and Interfaces](api-interfaces.md)
-- [Testing and Quality Assurance](testing-qa.md)
-- [Issues Tracking and Bugs Report](issue-tracking-bug-report.md)
+- [Architecture and Design](./src/architecture-design.md)
+- [API and Interfaces](./src/api-interfaces.md)
+- [Testing and Quality Assurance](./src/testing-qa.md)
+- [Issues Tracking and Bugs Report](./src/issue-tracking-bug-report.md)

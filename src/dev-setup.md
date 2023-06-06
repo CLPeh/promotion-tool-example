@@ -38,7 +38,7 @@ Password: `password`
 3. Click 'OK'.
 
 ## Contributing
-1. Stash All
+1. Stash All your current project
 2. Fetch
 3. Pull
 4. Apply the latest stashed project

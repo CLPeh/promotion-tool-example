@@ -1,4 +1,6 @@
 # API and Interfaces
+- [API Endpoints](#api-endpoints)
+- [Interfaces & Service Model](#interfaces--service-model)
 
 ## API Endpoints
 `/promotionTool/{{action}}` : This endpoint is for promotion-related operations

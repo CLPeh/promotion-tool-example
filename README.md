@@ -1,6 +1,6 @@
 # PromotionTool
 
-- [Contributing Guidelines](src\contributing-guildelines.md)
+- [Contributing Guidelines](./src/contributing-guildelines.md)
 - [Development Setup](development-setup.md)
 - [Release Notes](https://gitlab.sige.la/pg-backend-group/pg-backend-service/pg-service-promotion-tool/-/releases)
 - [Architecture and Design](architecture-design.md)

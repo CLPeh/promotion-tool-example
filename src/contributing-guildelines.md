@@ -1,6 +1,6 @@
 # Contributing Guildelines
 
-Please read these guidelines before contributing to Json.NET:
+Please read these guidelines before contributing to .NET Core:
 
  - [Question or Problem?](#question)
  - [Issues and Bugs](#issue)

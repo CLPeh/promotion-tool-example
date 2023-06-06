@@ -6,3 +6,5 @@ The project follows a modular architecture pattern, separating functionality int
 1. AF (Application Facade) - Handle the entire flow of business logic
 2. BC (Business Component) - Implement the business logic of the application
 3. DA (Data Access) - Abstract the logic required to access the underlying data stores
+
+## Folder Structure

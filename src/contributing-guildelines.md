@@ -2,7 +2,7 @@
 
 Please read these guidelines before contributing to .NET Core:
 
- - [Question or Problem?](#question)
+ - [Question or Problem](#question)
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
  - [Submitting a Pull Request](#pullrequest)

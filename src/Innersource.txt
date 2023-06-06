@@ -1,0 +1,60 @@
+Benefits
+==========
+1. collaboration and knowledge sharing
+除了自己負責的part，可以去了解別人handle的module，這樣就算負責人不在，有出現了什麽問題那個project還是可以繼續proceed的
+
+2. improve code quality
+當大家都follow一個coding standard去做一個project， 有問題的時候我們就可以更快的去找到問題出在哪裏，不會因爲各自的做法不同，找不到要去哪裏fix bug
+
+3. code reusability & accelerated development 加速
+拿existing的code，library implement進去自己的function，A 做了create promotion的code，B也要用到就可以直接call那個function，不用再花時間自己去develop然後可能到最後做出來的是不一樣的，這樣就不consistent了
+
+4. Documentation as A Living Artifact
+當有了documentation記錄所有重要的資訊，傳遞資訊的時候就不會有遺漏還是錯誤，一個一個人傳的話很可能到最後一個人的時候得到的資訊是有差池的.
+ 
+
+Ways to promote
+=================
+1. enocurage documentation and knowledge sharing
+當我們要做到innersource，會需要更穩定的把資訊傳遞給team members no matter is collaboration within the same team or across team. 這時候documentation在促進合作方面 就會起到很好的作用 提倡大家做documentation
+
+2. Foster a Learning Environment - Hackathons
+像之前的hackathons，大家都會開會來討論學習. 提供一個平台來讓大家把自己的idea，skills分享出來，互相學習，可以意識到合作的好處.
+
+3.Provide Time and Resources
+sharing session for 綫上和綫下的，分享自己的作品還是knowledge，其他人也可以學到新知識apply進自己的field. example:怎樣做到backward compatible, no downtime.
+
+4. Encourage Code Reviews and Feedback
+做promotionTool搬code都會給zhiyu他們去review，看一下有什麽地方需要改進，給feedback，這樣code quality會越來越好，也是一個推動innersource的方法.
+
+5. Foster Collaboration Platforms - kibana，Jenkins
+issue tracking systems, and project management tools促進合作的平臺
+
+
+Documentation type
+====================
+1. readme
+概括所有 像是一個目錄
+
+2. release note
+記錄每一次release的新version做了什麽update.包括version number，release date，加了什麽，刪了什麽，fix了什麽，跟limitation之類的（避免duplicate bug report）
+
+3. contribution guideline
+説明怎麽樣contribute在一個project裏面，包括提交bug report, improvenent for the project之類的資訊
+
+4. architecture and design > refer chatgpt -> promotiontool裏面用了什麽microservice...
+AF - flow
+BC - logic
+DA - database
+
+5. development setup > nuget example
+steps and requirements for setting up the development environment，怎樣clone repo，install nugetpackage，run test. troubleshooting for common setup issue. 之前就是有nuget那邊明明已經add package source了然後build的時候還是一直報錯，到最後發現要delete了add過再build問題就解決了. 有其他人遇到同樣的問題，全部一個一個來問解決方法.
+
+6. API and interfaces > spin
+API endpoints, input parameters, response formats, error handling, authentication requirements, and usage examples. 確保其他team可以有效融入project. spin的unit test有遇到類似問題，就是login了，1st spin沒有問題，可是要spin多一次的時候spinId是要跟get的spinId每一次要換的 不然就會報錯.然後這個問題問了jiehui他當下也不知道爲什麽會這樣，是過後去check了才跟我講要怎麽做，這樣就花了時間來去找問題出現在哪裏
+
+7. Issue Tracking and Bug Reports
+testing/QA team test了發現有問題就可以把問題的details跟著一個standard記錄下來，然後developer可以知道出現了什麽問題 方便他知道要fix什麽東西.
+
+8. testing and QA
+test startegy,test cases, test result, test plan, test data等等. 這些步驟可以確保test出來的東西是consistent的，project做出來也是有quality的.

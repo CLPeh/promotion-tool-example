@@ -5,11 +5,11 @@ To set up the development environment for this project, follow the steps below:
 - [Database Setup](#database-setup)
 - [Contributing](#contributing)
 
-## <a name="prerequisite"></a>Prerequisites
+## Prerequisites
 - Visual Studio 2022 (version 17 or higher)
 - MySQL Workbench 8.0 CE
 
-## <a name="installation"></a>Installation
+## Installation
 1. Clone the repository to your local machine:
 ```sh
 https://github.com/CLPeh/promotion-tool-example.git
@@ -28,7 +28,7 @@ https://github.com/CLPeh/promotion-tool-example.git
 
 4. Build the project to make sure it works without error.
 
-## <a name="db-setup"></a>Database Setup
+## Database Setup
 1. Open MySQL Workbench.
 2. Setup New Connection
 ```sh
@@ -41,7 +41,7 @@ Password: `password`
 
 3. Click 'OK'.
 
-## <a name="contributing"></a>Contributing
+## Contributing
 1. Stash All your current project
 2. Fetch
 3. Pull

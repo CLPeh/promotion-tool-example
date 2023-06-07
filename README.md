@@ -8,7 +8,7 @@ It is a project that handles all the promotion-related functions.
 ## Need Help?
 Kindly refer to the guidelines and documentation related to this topic.
 - [Contributing Guidelines](./src/contributing-guildelines.md)
-  - [helllo](./src/contributing-guildelines.md)
+  - [Question or Problem](./src/contributing-guildelines.md#question)
 - [Development Setup](./src/dev-setup.md)
 - [Architecture and Design](./src/architecture-design.md)
 - [API and Interfaces](./src/api-interfaces.md)

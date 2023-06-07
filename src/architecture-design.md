@@ -19,6 +19,7 @@ The project follows a modular architecture pattern, separating functionality int
 | Service Model |  |
 
 ## Folder Structure
+`something here...`  
 <img src="folder-structure.png">
 
 ## Design Patterns

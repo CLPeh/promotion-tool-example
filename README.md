@@ -31,3 +31,10 @@ Kindly refer to the guidelines and documentation related to this topic.
   - [Contributing](./src/dev-setup.md#contributing)
 
 </details>
+<details><summary> API and Grpc </summary>
+
+  - [API Endpoints](./src/api-interfaces.md#api-endpoints)
+  - [Grpc](./src/api-interfaces.md#grpc-services)
+  - [Management Grpc](./src/api-interfaces.md#management-grpc-services)
+
+</details>

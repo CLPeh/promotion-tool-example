@@ -8,3 +8,4 @@ The project follows a modular architecture pattern, separating functionality int
 3. DA (Data Access) - Abstract the logic required to access the underlying data stores
 
 ## Folder Structure
+

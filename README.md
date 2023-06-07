@@ -7,12 +7,6 @@ It is a project that handles all the promotion-related functions.
 
 ## Need Help?
 Kindly refer to the guidelines and documentation related to this topic.
-- [Architecture and Design](./src/architecture-design.md)
-- [API and Interfaces](./src/api-interfaces.md)
-- [Testing and Quality Assurance](./src/testing-qa.md)
-- [Release Notes](https://github.com/CLPeh/promotion-tool-example/releases)
-- [Issues Tracking and Bugs Report](./src/issue-tracking-bug-report.md)
-
 <details><summary> Contributing Guidelines </summary>
 
   - [Question or Problem](./src/contributing-guildelines.md#question)
@@ -38,3 +32,14 @@ Kindly refer to the guidelines and documentation related to this topic.
   - [Management Grpc](./src/api-interfaces.md#management-grpc-services)
 
 </details>
+<details><summary> Architecture and Design </summary>
+
+  - [Coding Architecture](./src/architecture-design.md#coding-architecture)
+  - [Folder Structure](./src/architecture-design.md#folder-structure)
+  - [Design Pattern](./src/architecture-design.md#design-patterns)
+
+</details>
+
+- [Testing and Quality Assurance](./src/testing-qa.md)
+- [Release Notes](https://github.com/CLPeh/promotion-tool-example/releases)
+- [Issues Tracking and Bugs Report](./src/issue-tracking-bug-report.md)

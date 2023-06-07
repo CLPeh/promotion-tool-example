@@ -1,6 +1,7 @@
 # Unit Testing
 
-### GetPromotionTransaction
+
+<details><summary> GetPromotionTransaction </summary>
 
 Test Data
 ```sh
@@ -39,3 +40,6 @@ operatorTokens = "123!@#"
 serviceType = ServiceType.GameProxy
 operatorTokens = "123!@#"
 ```
+
+</details>
+

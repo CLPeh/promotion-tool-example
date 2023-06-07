@@ -3,6 +3,7 @@ To set up the development environment for this project, follow the steps below:
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Database Setup](#database-setup)
+- [Common Setup Issue](#failed-to-build-project)
 - [Contributing](#contributing)
 
 ## Prerequisites
@@ -40,6 +41,13 @@ Password: `password`
 ```
 
 3. Click 'OK'.
+
+## Failed to Build Project
+If there are errors during your project rebuild due to nuget pakages source not found, please consider:
+1. Remove the existing nuget pakages.
+2. Add the PG Nuget again.
+
+** Kindly remind that simply update the nuget pakages sources will not solve the error.
 
 ## Contributing
 1. Stash All your current project

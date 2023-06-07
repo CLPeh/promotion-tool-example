@@ -1,4 +1,4 @@
-# API and Interfaces
+# API and Grpc
 - [API Endpoints](#api-endpoints)
 
 ## API Endpoints
@@ -13,4 +13,11 @@
 | PUT /promotionTool<br>/CancelPromotion/{id} | Update a specific promotion's status to 'Canceled' | PromotionId (uint, required)<br>OperatorToken (string, required)<br>Status (PromotionStatus, required)<br> | Returns the updated status promotion object. |
 
 ## Grpc Services
+PromotionTool.Grpc\Services
 | File | Functions |
+| ------ | ------ |
+| HealthCheckGrpcService | Check<br>`something here`<br><br>Watch<br>`something here` |
+| HealthGrpcService | Ping<br>`something here`<br><br>GetVersion<br>`something here`<br><br>GetAllVersion<br>`something here`<br><br>GetMemory<br>`something here`<br><br>GetBuildConfiguration<br>`something here`<br> <br>GetMemory<br>`something here`|
+| JobLogGrpcService | GetLatestJobLog<br>`something here`<br><br>InsertJobLog<br>`something here`<br><br>UpdateJobLog<br>`something here` |
+| LifetimeEventsHostedService | StartAsync<br>`something here`<br><br>StopAsync<br>`something here`<br><br>OnStarted<br>`something here`<br><br>OnStopping<br>`something here`<br><br>OnStopped<br>`something here`|
+| PromotionGrpcService | InsertPendingPromotionTransaction<br>`something here`<br><br>DeletePendingPromotionTransaction<br>`something here`<br><br>InsertSuccessPromotionTransaction<br>`something here`<br><br>GetActivePromotions<br>`something here`<br><br>GetAvailablePrize<br>`something here`<br><br>FightPlayerPromotion<br>`something here`<br><br>GetPendingPromotionTransaction<br>`something here` |

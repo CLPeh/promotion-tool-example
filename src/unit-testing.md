@@ -3,7 +3,7 @@
 
 <details><summary> GetPromotionTransaction </summary>
 
-Test Data
+General Test Data:
 ```sh
 PlayerId = 1146580829,
 PlayerName = "zhihaochan",
@@ -17,7 +17,7 @@ RowCount = 25,
 ServiceType = `serviceType`,
 ```
 
-Valid Test Data
+Valid Test Data:
 ```sh
 serviceType = ServiceType.External
 operatorTokens = null
@@ -29,7 +29,7 @@ serviceType = ServiceType.GameProxy
 operatorTokens = "abcd"
 ```
 
-Invalid Test Data
+Invalid Test Data:
 ```sh
 serviceType = ServiceType.External
 operatorTokens = "123!@#"

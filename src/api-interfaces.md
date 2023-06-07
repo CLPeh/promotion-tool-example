@@ -1,5 +1,7 @@
 # API and Grpc
 - [API Endpoints](#api-endpoints)
+- [Grpc](#grpc-services)
+- [Grpc Management](#grpc-management-services)
 
 ## API Endpoints
 `/promotionTool/{{action}}` : This endpoint is for promotion-related operations
@@ -14,10 +16,19 @@
 
 ## Grpc Services
 PromotionTool.Grpc\Services
-| File | Functions |
+| File | Description |
 | ------ | ------ |
-| HealthCheckGrpcService | Check<br>`something here`<br><br>Watch<br>`something here` |
-| HealthGrpcService | Ping<br>`something here`<br><br>GetVersion<br>`something here`<br><br>GetAllVersion<br>`something here`<br><br>GetMemory<br>`something here`<br><br>GetBuildConfiguration<br>`something here`<br> <br>GetMemory<br>`something here`|
-| JobLogGrpcService | GetLatestJobLog<br>`something here`<br><br>InsertJobLog<br>`something here`<br><br>UpdateJobLog<br>`something here` |
-| LifetimeEventsHostedService | StartAsync<br>`something here`<br><br>StopAsync<br>`something here`<br><br>OnStarted<br>`something here`<br><br>OnStopping<br>`something here`<br><br>OnStopped<br>`something here`|
-| PromotionGrpcService | InsertPendingPromotionTransaction<br>`something here`<br><br>DeletePendingPromotionTransaction<br>`something here`<br><br>InsertSuccessPromotionTransaction<br>`something here`<br><br>GetActivePromotions<br>`something here`<br><br>GetAvailablePrize<br>`something here`<br><br>FightPlayerPromotion<br>`something here`<br><br>GetPendingPromotionTransaction<br>`something here` |
+| HealthCheckGrpcService | `something here` |
+| HealthGrpcService | `something here`|
+| JobLogGrpcService | `something here` |
+| LifetimeEventsHostedService | `something here`|
+| PromotionGrpcService | `something here` |
+
+## Grpc Management Services
+PromotionTool.Management.Grpc\Services
+| File | Description |
+| ------ | ------ |
+| HealthCheckGrpcService | `something here` |
+| HealthGrpcService | `something here`|
+| LifetimeEventsHostedService | `something here`|
+| PromotionGrpcService | `something here` |

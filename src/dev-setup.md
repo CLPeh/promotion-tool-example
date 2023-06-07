@@ -42,7 +42,7 @@ Password: `password`
 
 3. Click 'OK'.
 
-## Failed to Build Project
+## Failed to Build Project?
 If there are errors during your project rebuild due to nuget pakages source not found, please consider:
 1. Remove the existing nuget pakages.
 2. Add the PG Nuget again.

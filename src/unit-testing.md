@@ -1,6 +1,5 @@
 # Unit Testing
 
-
 <details><summary> GetPromotionTransaction </summary>
 
 General Test Data:

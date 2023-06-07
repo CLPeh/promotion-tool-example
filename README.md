@@ -24,3 +24,13 @@ Kindly refer to the guidelines and documentation related to this topic.
 - [Testing and Quality Assurance](./src/testing-qa.md)
 - [Release Notes](https://github.com/CLPeh/promotion-tool-example/releases)
 - [Issues Tracking and Bugs Report](./src/issue-tracking-bug-report.md)
+
+<details><summary> [Contributing Guidelines](./src/contributing-guildelines.md) </summary>
+
+  - [Question or Problem](./src/contributing-guildelines.md#question)
+  - [Issues and Bugs](./src/contributing-guildelines.md#issue)
+  - [Feature Requests](./src/contributing-guildelines.md#feature)
+  - [Submmiting a Pull Request](./src/contributing-guildelines.md#pullrequest)
+  - [Contributor License Agreement](./src/contributing-guildelines.md#cla)
+
+</details>

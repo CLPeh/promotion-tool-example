@@ -1,7 +1,7 @@
 # API and Grpc
 - [API Endpoints](#api-endpoints)
 - [Grpc](#grpc-services)
-- [Grpc Management](#grpc-management-services)
+- [Management Grpc](#management-grpc-services)
 
 ## API Endpoints
 `/promotionTool/{{action}}` : This endpoint is for promotion-related operations
@@ -24,7 +24,7 @@ PromotionTool.Grpc\Services
 | LifetimeEventsHostedService | `something here`|
 | PromotionGrpcService | `something here` |
 
-## Grpc Management Services
+## Management Grpc Services
 PromotionTool.Management.Grpc\Services
 | File | Description |
 | ------ | ------ |

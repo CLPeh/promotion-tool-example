@@ -1,5 +1,5 @@
 # Issue Tracking and Bug Report
-<details><summary> Page Not Displaying Correctly on Mobile Devices  </summary>
+<details><summary> Error message not display as expected  </summary>
 
 > Issue ID: #1234  
 > Severity: Medium  

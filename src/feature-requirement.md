@@ -6,7 +6,7 @@
 The Promotion Update feature enables users to modify promotion information within the application. It provides a user-friendly interface for users to edit and save changes to the promotion data.
 
 ### Requirements  
-Edit Promotion Information: Users should be able to edit the following information in the promotion management:
+**Edit Promotion Information**: Users should be able to edit the following information in the promotion management:
 
 1. Promotion Status  
 2. Promotion Duration 
@@ -34,5 +34,5 @@ Include a visual representation or mockup of the user interface where users can 
 
 ### Related Documentation  
 Create Promotion: Refer to the separate documentation on how new users can create an account.
-
-<details>
+  
+  </details>

@@ -12,9 +12,11 @@ The project aims to develop a web-based task management application that helps i
 **User-Friendly Interface**: The application focuses on delivering a user-friendly interface that ensures a smooth and intuitive user experience. It emphasizes simplicity, clarity, and ease of navigation to maximize user adoption and satisfaction.
 
 ### Key Features
-**Task Creation and Assignment**: Users can create new tasks, assign them to team members, and set due dates and priorities.
+**Promotion Creation**  
+Users can create new promotion, set the promotion period and duration, promotion limit type and so on.
 
-**Task Tracking and Progress Monitoring**: The application allows users to track the progress of their tasks, update task status, and view task histories.
+**Promotion Modification**  
+The application allows users to update promotion info, and view promotion details histories.
 
 **Project Management**: Users can create projects, organize tasks within projects, and invite team members to collaborate on specific projects.
 

@@ -35,6 +35,8 @@ Application allow user to filter and search promotion based on criteria:
 - promotion status
 - promotion start or end date
 
+### Promotion Type
+
 ### Technologies Used
 Front-end: HTML, CSS, JavaScript, React.js  
 Back-end: .NET Core, .NET Standard  

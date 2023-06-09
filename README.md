@@ -1,5 +1,5 @@
 # PromotionTool
-### Project Overview  
+### Introduction  
 1. The players could win the prize multiplier that has been set based on the probability, for example x5 x20 x50 times.
 2. The prize multiplier will be used to determine the final prize amount (current bet x multiplier won).
 3. The chance to win the prizes is the players’ current bet amount must hit the minimum bet required to be eligible.  

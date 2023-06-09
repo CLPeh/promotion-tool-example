@@ -11,10 +11,10 @@ Prize multiplier won = x100,
 Current bet amount = 200.00 CNY  
 The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100)
 
-### Key Features
-
-
 ### Promotion Type
+- Money Rain
+- Money Rain Daily Bonus
+- Daily Cashpot
 
 ### Technologies Used
 Front-end: HTML, CSS, JavaScript, React.js  

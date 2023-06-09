@@ -6,20 +6,46 @@
 The Promotion Update feature enables users to modify promotion information within the application. It provides a user-friendly interface for users to edit and save changes to the promotion data.
 
 ### Requirements  
-**Edit Promotion Information**: Users should be able to edit the following information in the promotion management:
+**Promotion Creation**  
+Users are able to:  
+- create new promotion
+- set the promotion period
+- set the promotion duration
+- promotion limit type
 
-1. Promotion Status  
-2. Promotion Duration 
-3. Promotion Period  
-4. Is it limited?
-5. Is it global?
-6. Is it by pass payout?
+**Promotion Modification**  
+Users are able to:  
+- modify the promotion info
+- save changes to the database
 
-**Validation**: The system should validate user inputs to ensure data integrity and accuracy. It should check for required fields, proper input format, and valid patterns.
+**View Promotion**  
+Users are able to view:  
+- promotion details
+- currency settings
+- prize pool information
+- transaction
+- transaction summary
 
-**Save Changes**: Upon editing the promotion, users should have the ability to save the changes made.
+**Promotion Cancellation**  
+Users are able to:  
+- cancel the existing promotion
 
-**Error Handling**: The feature should handle error cases, such as invalid inputs or server-side errors. Appropriate error messages should be displayed to guide users in resolving any issues.
+**Promotion Filtering and Searching**  
+Application allow user to filter and search promotion based on criteria:  
+- promotion name
+- promotion type
+- operator
+- promotion status
+- promotion start or end date
+
+**Validation**  
+The system should validate user inputs to ensure data integrity and accuracy. It should check for required fields, proper input format, and valid patterns.
+
+**Save Changes**  
+Upon editing the promotion, users should have the ability to save the changes made.
+
+**Error Handling**  
+The feature should handle error cases, such as invalid inputs or server-side errors. Appropriate error messages should be displayed to guide users in resolving any issues.
 
 ### User Interface Mockup
 Include a visual representation or mockup of the user interface where users can update the promotion information. You can provide an image or a link to the mockup.

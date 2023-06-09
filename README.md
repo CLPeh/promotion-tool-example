@@ -47,10 +47,10 @@ i.e Based on Figure 1, the Time Before Win Probability Increases is set at 1 hou
 Prize release in the specific time that has been generated in the prize pool, the prizes are visible by the players, the players are able to see the prize list.  
 
 **How the Player Award Prize**  
-The way that players could award the prize of this promotion is basically the same as the Money Rain Daily Bonus.  
-
+The way that players could award the prize of this promotion is basically the same as the Money Rain Daily Bonus.
+   
 **How the Settings**  
-The settings of this promotion are the same as the Money Rain Daily Bonus.  
+1. The settings of this promotion are the same as the Money Rain Daily Bonus.
 ------
   
   </details>

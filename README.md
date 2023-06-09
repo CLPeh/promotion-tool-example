@@ -2,34 +2,38 @@
 ### Project Overview  
 The project aims to develop a web-based task management application that helps individuals and teams efficiently organize and track their tasks, improving productivity and collaboration. The application provides a user-friendly interface for creating, assigning, prioritizing, and monitoring tasks, along with features for task categorization, deadlines, and progress tracking.
 
-### Project Goals  
-**Efficient Task Management**  
-The primary goal of the project is to provide a robust and intuitive task management system that allows users to easily create, organize, and track their tasks in a centralized platform.
-
-**Collaboration and Teamwork**  
-The application promotes collaboration by enabling users to create shared projects and assign tasks to team members. It includes features for task delegation, notifications, and real-time updates to facilitate effective teamwork.
-
-**Productivity Enhancement**  
-The project aims to enhance users' productivity by providing features such as task prioritization, deadline reminders, progress tracking, and customizable task views.
-
-**User-Friendly Interface**  
-The application focuses on delivering a user-friendly interface that ensures a smooth and intuitive user experience. It emphasizes simplicity, clarity, and ease of navigation to maximize user adoption and satisfaction.
-
 ### Key Features
 **Promotion Creation**  
-Users can create new promotion, set the promotion period and duration, promotion limit type and so on.
+Users are able to:  
+- create new promotion
+- set the promotion period
+- set the promotion duration
+- promotion limit type
 
 **Promotion Modification**  
-The application allows users to update the promotion info.
+Users are able to:  
+- modify the promotion info
+- save changes to the database
 
 **Promotion View**  
-The application allows users to view the promotion details, currency settings, prize pool information, transaction and transaction summary.
+Users are able to view:  
+- promotion details
+- currency settings
+- prize pool information
+- transaction
+- transaction summary
 
 **Promotion Cancellation**  
-The application allows users to cancel the promotion.
+Users are able to:  
+- cancel the existing promotion
 
 **Promotion Filtering and Searching**  
-Users can filter and search promotion based on criteria such as promotion name, type, operator, status, start or end date.
+Application allow user to filter and search promotion based on criteria:  
+- promotion name
+- promotion type
+- operator
+- promotion status
+- promotion start or end date
 
 ### Technologies Used
 Front-end: HTML, CSS, JavaScript, React.js  

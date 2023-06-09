@@ -12,37 +12,7 @@ Current bet amount = 200.00 CNY
 The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100)
 
 ### Key Features
-**Promotion Creation**  
-Users are able to:  
-- create new promotion
-- set the promotion period
-- set the promotion duration
-- promotion limit type
 
-**Promotion Modification**  
-Users are able to:  
-- modify the promotion info
-- save changes to the database
-
-**View Promotion**  
-Users are able to view:  
-- promotion details
-- currency settings
-- prize pool information
-- transaction
-- transaction summary
-
-**Promotion Cancellation**  
-Users are able to:  
-- cancel the existing promotion
-
-**Promotion Filtering and Searching**  
-Application allow user to filter and search promotion based on criteria:  
-- promotion name
-- promotion type
-- operator
-- promotion status
-- promotion start or end date
 
 ### Promotion Type
 

@@ -1,8 +1,32 @@
 # PromotionTool
-It is a project that handles all the promotion-related functions.
+### Project Overview  
+The project aims to develop a web-based task management application that helps individuals and teams efficiently organize and track their tasks, improving productivity and collaboration. The application provides a user-friendly interface for creating, assigning, prioritizing, and monitoring tasks, along with features for task categorization, deadlines, and progress tracking.
 
-## Mission
-`something here...`
+### Project Goals  
+**Efficient Task Management**: The primary goal of the project is to provide a robust and intuitive task management system that allows users to easily create, organize, and track their tasks in a centralized platform.
+
+**Collaboration and Teamwork**: The application promotes collaboration by enabling users to create shared projects and assign tasks to team members. It includes features for task delegation, notifications, and real-time updates to facilitate effective teamwork.
+
+**Productivity Enhancement**: The project aims to enhance users' productivity by providing features such as task prioritization, deadline reminders, progress tracking, and customizable task views.
+
+**User-Friendly Interface**: The application focuses on delivering a user-friendly interface that ensures a smooth and intuitive user experience. It emphasizes simplicity, clarity, and ease of navigation to maximize user adoption and satisfaction.
+
+### Key Features
+**Task Creation and Assignment**: Users can create new tasks, assign them to team members, and set due dates and priorities.
+
+**Task Tracking and Progress Monitoring**: The application allows users to track the progress of their tasks, update task status, and view task histories.
+
+**Project Management**: Users can create projects, organize tasks within projects, and invite team members to collaborate on specific projects.
+
+**Reminders and Notifications**: The system sends notifications and reminders to users for approaching task deadlines and task assignment updates.
+
+**Task Categorization and Filtering**: Users can categorize tasks into different categories or labels, and filter tasks based on criteria such as priority, due date, or assigned team member.
+
+### Technologies Used
+Front-end: HTML, CSS, JavaScript, React.js
+Back-end: .NET Core, .NET Standard
+Database: MySQL, Redis
+Authentication: JWT (JSON Web Tokens)
 
 
 ## Need Help?

@@ -20,20 +20,23 @@ The application focuses on delivering a user-friendly interface that ensures a s
 Users can create new promotion, set the promotion period and duration, promotion limit type and so on.
 
 **Promotion Modification**  
-The application allows users to update the promotion info, and view promotion details.
+The application allows users to update the promotion info.
+
+**Promotion View**  
+The application allows users to update the promotion info.
 
 **Promotion Cancellation**  
 The application allows users to cancel the promotion.
 
 **Promotion Filtering and Searching**  
-Users can filter promotion based on criteria such as due date, or operator ID and able to search the desired promotion.
+Users can filter and search promotion based on criteria such as promotion name, type, operator, status, start or end date.
 
 ### Technologies Used
-Front-end: HTML, CSS, JavaScript, React.js
-Back-end: .NET Core, .NET Standard
-Database: MySQL, Redis
-Authentication: JWT (JSON Web Tokens)
-
+Front-end: HTML, CSS, JavaScript, React.js  
+Back-end: .NET Core, .NET Standard  
+Database: MySQL, Redis  
+Authentication: JWT (JSON Web Tokens)  
+  
 
 ## Need Help?
 Kindly refer to the guidelines and documentation related to this topic.

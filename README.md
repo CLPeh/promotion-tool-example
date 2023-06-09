@@ -15,7 +15,7 @@ Users are able to:
 - modify the promotion info
 - save changes to the database
 
-**Promotion View**  
+**View Promotion**  
 Users are able to view:  
 - promotion details
 - currency settings

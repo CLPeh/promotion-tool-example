@@ -1,6 +1,15 @@
 # PromotionTool
 ### Project Overview  
-The project aims to develop a web-based task management application that helps individuals and teams efficiently organize and track their tasks, improving productivity and collaboration. The application provides a user-friendly interface for creating, assigning, prioritizing, and monitoring tasks, along with features for task categorization, deadlines, and progress tracking.
+1. The players could win the prize multiplier that has been set based on the probability, for example x5 x20 x50 times.
+2. The prize multiplier will be used to determine the final prize amount (current bet x multiplier won).
+3. The chance to win the prizes is the players’ current bet amount must hit the minimum bet required to be eligible.  
+For example, the minimum bet set = 10.00 CNY. Hence, the players are only eligible to have a chance to win the prizes when their current bet is at least 10.00 CNY.  
+4. However, the maximum bet has also been set. If the player bet exceeds the maximum bet, then the extra bet amount will not be counted.  
+For example:  
+Maximum bet = 100.00 CNY,   
+Prize multiplier won = x100,  
+Current bet amount = 200.00 CNY  
+The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100)
 
 ### Key Features
 **Promotion Creation**  

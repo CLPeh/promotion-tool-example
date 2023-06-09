@@ -23,7 +23,7 @@ Users can create new promotion, set the promotion period and duration, promotion
 The application allows users to update the promotion info.
 
 **Promotion View**  
-The application allows users to update the promotion info.
+The application allows users to view the promotion details, currency settings, prize pool information, transaction and transaction summary.
 
 **Promotion Cancellation**  
 The application allows users to cancel the promotion.

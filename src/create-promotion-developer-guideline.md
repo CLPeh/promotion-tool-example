@@ -15,12 +15,7 @@ Before starting develop new promotion, please make sure you have read and unders
       <DependentUpon>PromotionProcess.cs</DependentUpon>
     </Compile>
     ```
-    <img src="./images/service-processor-itemgroup.png" alt="service processor item group" width="700px">  
-    <br>  
-    
 3. Add necessary code into PromotionTypeExtensions as below with the promotion type to be created.
-   <img src="./images/promotion-type-extensions.png" alt="promotion type extensions">  
 4. Add the new promotion type enum into PromotionType under Enums folder.
-   <img src="./images/promotion-type-enum.png" alt="promotion type enum">  
 5. Start to code the promotion logic in the file created.
 6. Do necessary unit testing to make sure the code is correct and workable.

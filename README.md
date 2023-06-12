@@ -5,11 +5,11 @@
 3. The chance to win the prizes is the players’ current bet amount must hit the minimum bet required to be eligible.  
 For example, the minimum bet set = 10.00 CNY. Hence, the players are only eligible to have a chance to win the prizes when their current bet is at least 10.00 CNY.  
 4. However, the maximum bet has also been set. If the player bet exceeds the maximum bet, then the extra bet amount will not be counted.  
-For example:  
+**For example**:  
 Maximum bet = 100.00 CNY,   
 Prize multiplier won = x100,  
 Current bet amount = 200.00 CNY  
-The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100)
+The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100)  
 
 ### Promotion Type
 <details><summary> Money Rain </summary>

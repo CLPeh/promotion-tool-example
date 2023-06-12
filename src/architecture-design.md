@@ -8,19 +8,20 @@ The project follows a modular architecture pattern, separating functionality int
 
 | File | Description |
 | ------ | ------ |
-| Grpc | For often used function like promotion transaction related function |
-| Management Grpc | For less used function such as create promotion |
-| AF (Application Facade) | Handle the entire flow of business logic |
-| BC (Business Component) | Implement the business logic of the application |
-| DA (Data Access) | Abstract the logic required to access the underlying data stores |
-| Hybrid BC |  |
-| Remote BC |  |
-| Service Processor |  |
-| Data Model |  |
-| Service Model |  |
+| Grpc | *`type something here...`* |
+| Management Grpc | *`type something here...`* |
+| AF (Application Facade) | *`type something here...`* |
+| BC (Business Component) | *`type something here...`* |
+| DA (Data Access) | *`type something here...`* |
+| Hybrid BC | *`type something here...`* |
+| Remote BC | *`type something here...`* |
+| Service Processor | *`type something here...`* |
+| Data Model | *`type something here...`* |
+| Service Model | *`type something here...`* |
 
 <br>
 <img src="./images/architecture.png" width="850px">
+<a href="https://viewer.diagrams.net/?page-id=zvAs8s11Rr8DDzGO9MPl&highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=zvAs8s11Rr8DDzGO9MPl#G1tbxrTbyO1cFPmTHQ1eRPHUOAm7aWiNSt">hello</a>
 <br>
 
 ## Folder Structure

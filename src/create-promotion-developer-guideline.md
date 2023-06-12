@@ -9,7 +9,6 @@ Before starting develop new promotion, please make sure you have read and unders
 ### Steps
 1. Create new promotion file in PromotionProcess.cs under ServiceProcessor:  
     <img src="./images/promotion-service-processor.png" alt="promotion service processor">  
-    <br>
 2. Add the code and replace the file name into the ServiceProcessor `ItemGroup` as below:  
     ```sh
     <Compile Update="NewPromotion.cs">
@@ -21,11 +20,7 @@ Before starting develop new promotion, please make sure you have read and unders
     
 3. Add necessary code into PromotionTypeExtensions as below with the promotion type to be created.
    <img src="./images/promotion-type-extensions.png" alt="promotion type extensions">  
-   <br>  
-   
-4. Add the new promotion type into PromotionType under Enums folder.
+4. Add the new promotion type enum into PromotionType under Enums folder.
    <img src="./images/promotion-type-enum.png" alt="promotion type enum">  
-   <br>  
-   
 5. Start to code the promotion logic in the file created.
 6. Do necessary unit testing to make sure the code is correct and workable.

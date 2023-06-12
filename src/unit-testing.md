@@ -1,84 +1,53 @@
 # Unit Testing
 
-<details><summary> GetPromotionTransaction </summary>
+Do the unit testing based on AAA Testing Structure
+- Arrange: initialize data (map value into request)
+- Act: execute function (run method)
+- Assert: compare result with expectation
 
-General Test Data:
-```sh
-PlayerId = 1146580829,
-PlayerName = "zhihaochan",
-PromotionId = 556,
-OperatorIds = new List<uint> { 1 },
-OperatorTokens = new List<string> { `operatorTokens` },
-CallerOperatorId = 1,
-CallerOperatorToken = "abcd",
-PageNumber = 1,
-RowCount = 25,
-ServiceType = `serviceType`,
-```
+## Test Case
+**CreatePromotion**  
+- Create new promotion
+  - Recreate the promotion if inactive
+- NonGlobalCallerOnly
+- NonGlobalInvalidCallerOToken
+- IsGlobalWith2SubOperators
+- IsGlobal2InvalidSubOperators
+- IsGlobal2SubOperatorsNotChildofCaller
+- IsGlobalSubOperatorNotChildofCaller
+- InvalidDate
+- InvalidPeriod
+  - nonGlobal -> only create for promotion for caller operator
+  - isGlobal -> create for valid subOperators (if subOperators count > 1)  
+<br>  
 
-Valid Test Data:
-```sh
-serviceType = ServiceType.External
-operatorTokens = null
+**UpdatePromotion**
+- Update promotion name  
+<br>  
 
-serviceType = ServiceType.BackOffice
-operatorTokens = "abcd"
+**CancelPromotion**
+- Cancel existing promotion  
+<br>  
 
-serviceType = ServiceType.GameProxy
-operatorTokens = "abcd"
-```
+**GetPromotionById**
+<br>  
 
-Invalid Test Data:
-```sh
-serviceType = ServiceType.External
-operatorTokens = "123!@#"
+**GetPromoTransaction**
+- ExternalNoToken
+- ExternalInvalidToken
+- BOValidToken
+- BOInvalidToken
+- GPValidToken
+- GPInvalidToken
+- ServiceType: 
+  - External
+  - BO - BackOffice
+  - GP - GameProxy
+<br>  
 
-serviceType = ServiceType.BackOffice
-operatorTokens = "123!@#"
-
-serviceType = ServiceType.GameProxy
-operatorTokens = "123!@#"
-```
-
-</details>
-
-<details><summary> GetPromotionTransactionSummary </summary>
-
-General Test Data:
-```sh
-StartTime = new DateTime(2023, 01, 01),
-EndTime = new DateTime(2023, 04, 30),
-PromotionId = 419,
-Currency = "CNY",
-OperatorIds = new List<uint> { operaterId },
-OperatorTokens = new List<string> { operatorTokens },
-CallerOperatorId = 1,
-CallerOperatorToken = "abcd",
-PageNumber = 1,
-RowCount = 15,
-OrderBy = "player_id",
-SortBy = (int)Sorting.Ascending,
-ServiceType = serviceType,
-```
-
-Valid Test Data:
-```sh
-serviceType = ServiceType.External
-- operatorTokens = null, operatorId = 0
-
-serviceType = ServiceType.BackOffice
-- operatorTokens = null, operatorId = 0
-- operatorTokens = "abcd", operatorId = 1
-```
-
-Invalid Test Data:
-```sh
-serviceType = ServiceType.External
-operatorTokens = "123!@#"
-
-serviceType = ServiceType.BackOffice
-operatorTokens = "123!@#"
-```
-
-</details>
-
+**GetPromoTransactionSummary**
+- ExternalNoTokenOpId
+- ExternalInvalidToken
+- BONoTokenOpId
+- BOValidToken
+- BOInvalidToken

@@ -19,7 +19,6 @@ The project follows a modular architecture pattern, separating functionality int
 | Data Model | *`type something here...`* |
 | Service Model | *`type something here...`* |
 
-<br>
 <!--<img src="./images/architecture.png" width="850px">-->
 Click <a href="https://viewer.diagrams.net/?page-id=zvAs8s11Rr8DDzGO9MPl&highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=zvAs8s11Rr8DDzGO9MPl#G1tbxrTbyO1cFPmTHQ1eRPHUOAm7aWiNSt">here</a> to view the service architecture.
 <br>

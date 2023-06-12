@@ -1,5 +1,7 @@
 # PromotionTool
 ### Introduction  
+Promotion is one of the feature of the project in order to attract new players as well as retaining regular players. Below are the introduction of the promotion:
+
 1. The players could win the prize multiplier that has been set based on the probability, for example x5 x20 x50 times.
 2. The prize multiplier will be used to determine the final prize amount (current bet x multiplier won).
 3. The chance to win the prizes is the players’ current bet amount must hit the minimum bet required to be eligible.  
@@ -9,7 +11,7 @@ For example, the minimum bet set = 10.00 CNY. Hence, the players are only eligib
 Maximum bet = 100.00 CNY,   
 Prize multiplier won = x100,  
 Current bet amount = 200.00 CNY  
-The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100)  
+The player A current bet amount is 200.00 CNY, then the total prize won is 10,000.00 CNY (100.00 CNY x 100).  
 
 ### Promotion Type
 <details><summary> Money Rain </summary>

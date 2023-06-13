@@ -1,4 +1,4 @@
-# API and Grpc
+# API Information
 - [Grpc](#grpc-promotionclient)
 - [Management Grpc](#management-grpc-promotionclient)
 

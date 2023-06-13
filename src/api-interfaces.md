@@ -2,7 +2,6 @@
 - [Grpc](#grpc-promotionclient)
 - [Management Grpc](#management-grpc-promotionclient)
 
-## API 
 ### Grpc PromotionClient
 
 |  API | Description | Request | Response |

@@ -1,34 +1,42 @@
 # API and Grpc
-- [API Endpoints](#api-endpoints)
-- [Grpc](#grpc-services)
-- [Management Grpc](#management-grpc-services)
+- [Grpc](#grpc-promotionclient)
+- [Management Grpc](#management-grpc-promotionclient)
 
-## API Endpoints
-`/promotionTool/{{action}}` : This endpoint is for promotion-related operations
+## API 
+### Grpc PromotionClient
 
-|  Endpoints | Description | Parameter | Response |
+|  API | Description | Request | Response |
 | ------ | ------ | ------ | ------ |
-| GET /promotionTool<br>/GetPromotions | Retrieve a list of all promotion. | None<img width=400/> | Returns an array of promotion objects. |
-| GET /promotionTool<br>/GetPromotionById/{id} | Retrieve a specific promotion by id. | PromotionId (uint, required)<br>ServiceType (int, nullable)<br>CallerOperatorId (uint, required)<br>CallerOperatorToken (string, required) | Returns the promotion object corresponding to the provided id. |
-| POST /promotionTool<br>/CreatePromotion | Create a new promotion. | CallerOperatorToken (string, required)<br>TransactionReference (string, required)<br>CallerOperatorId (uint, required)<br>Type (PromotionType, required)<br>Status (PromotionStatus, required)<br>`> to be added...` | Returns created promotion object |
-| PUT /promotionTool<br>/UpdatePromotionById/{id} | Update a specific promotion by id. | PromotionId (uint, required)<br>Status (PromotionStatus, nullable)<br>DurationFrom(DateTime, nullable)<br>DurationTo(DateTime, nullable)<br>`> to be added...` | Returns the updated promotion object. |
-| PUT /promotionTool<br>/CancelPromotion/{id} | Update a specific promotion's status to 'Canceled' | PromotionId (uint, required)<br>OperatorToken (string, required)<br>Status (PromotionStatus, required)<br> | Returns the updated status promotion object. |
+| InsertPendingPromotionTransaction |  | InsertPendingPromotionTransactionRequest | InsertPendingPromotionTransactionResponse |
+| DeletePendingPromotionTransaction |  | DeletePendingPromotionTransactionRequest | DeletePendingPromotionTransactionResponse |
+| InsertSuccessPromotionTransaction |  | InsertPromotionTransactionRequest | InsertPromotionTransactionResponse |
+| GetActivePromotions | Retrieve the active promotions | GetActivePromotionsRequest | GetPromotionsResponse |
+| GetAvailablePrize | Retrieve available promotion prize | GetAvailablePrizeRequest | CommonResponse |
+| FightPlayerPromotion |  | FightPlayerPromotionRequest | FightPlayerPromotionResponse |
+| GetPendingPromotionTransaction |  | GetPendingPromotionTransactionRequest | GetPendingPromotionTransactionResponse |
 
-## Grpc Services
-PromotionTool.Grpc\Services
-| File | Description |
-| ------ | ------ |
-| HealthCheckGrpcService | `something here` |
-| HealthGrpcService | `something here`|
-| JobLogGrpcService | `something here` |
-| LifetimeEventsHostedService | `something here`|
-| PromotionGrpcService | `something here` |
+### Management Grpc PromotionClient
 
-## Management Grpc Services
-PromotionTool.Management.Grpc\Services
-| File | Description |
-| ------ | ------ |
-| HealthCheckGrpcService | `something here` |
-| HealthGrpcService | `something here`|
-| LifetimeEventsHostedService | `something here`|
-| PromotionGrpcService | `something here` |
+|  API | Description | Request | Response |
+| ------ | ------ | ------ | ------ |
+| GetPromotionTerms |  | GetPromotionTermsRequest | GetPromotionTermsResponse |
+| GetPromotionLite |  | GetPromotionLiteRequest | GetPromotionLiteResponse |
+| GetPromotionById |  | GetPromotionByIdRequest | GetPromotionByIdResponse |
+| GetPromotionCriteriaById |  | GetPromotionCriteriaByPromotionIdRequest | GetPromotionCriteriaByPromotionIdResponse |
+| GetPromotions | Retrieve all the promotions | GetPromotionsRequest | GetPromotionsResponse |
+| CreatePromotion | Create new promotion | CreatePromotionRequest | CreatePromotionResponse |
+| UpdatePromotionById | Update specific promotion info by ID given | UpdatePromotionByIdRequest | UpdatePromotionByIdResponse |
+| UpdatePromotionCurrencyById | Update promotion currency by ID given | UpdatePromotionCurrencyByIdRequest | UpdatePromotionByIdResponse |
+| CancelPromotion | Update the promotion status to canceled | CancelPromotionRequest | CancelPromotionResponse |
+| GetPromotionTransactions | Retrieve promotion transactions history | GetPromotionTransactionRequest | GetPromotionTransactionResponse |
+| GetPromotionTransactionSummary | Retrieve promotion transactions summary | GetPromotionTransactionSummaryRequest | GetPromotionTransactionSummaryResponse |
+| GetPlayerPromotionTransactions | Retrieve player promotion transaction | GetPlayerPromotionTransactionRequest | GetPlayerPromotionTransactionResponse |
+| GetConstPromotionType |  | GetConstPromotionTypeRequest | GetConstPromotionTypeResponse |
+| GetPromotionWinSummary |  | GetPromotionWinSummaryRequest | GetPromotionWinSummaryResponse |
+| GeneratePrize |  | GeneratePrizeRequest | GeneratePrizeResponse |
+| GeneratePrizePreview |  | GeneratePrizePreviewRequest | GeneratePrizePreviewResponse |
+| GetPrizePoolByPromotionId | Retrieve promotion prize pool by ID given | GetPrizePoolByPromotionIdRequest | GetPrizePoolByPromotionIdResponse |
+| GetPrizePoolListByPromotionId | Retrieve promotion prize pool list by ID given | GetPrizePoolListByPromotionIdRequest | GetPrizePoolListByPromotionIdResponse |
+| GetPrizeDistributionCountByPromotionId | Retrieve prize distribution count by ID given | GetPrizeDistributionCountByPromotionIdRequest | GetPrizeDistributionCountByPromotionIdResponse |
+| VerifyAndGetPromotionNotification |  | GetPromotionTransactionRequest | VerifyAndGetPromotionNotificationResponse |
+| ExportPromotionInfoRequestData |  | ExportPromotionInfoRequestDataRequest | ExportPromotionInfoRequestDataResponse |

@@ -43,6 +43,7 @@
 
 
 ## API Involved in Other Services  
+Click [here](https://viewer.diagrams.net/#G1tbxrTbyO1cFPmTHQ1eRPHUOAm7aWiNSt) to view the promotion service relationship diagram.
 <details><summary> Game Workflow </summary> 
   
 trigger promotion win during game spin  

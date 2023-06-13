@@ -7,8 +7,7 @@ Before starting develop new promotion, please make sure you have read and unders
 - [C# Coding Standards](https://www.dofactory.com/csharp-coding-standards)
 
 ### Steps
-1. Create new promotion file in PromotionProcess.cs under ServiceProcessor:  
-    <img src="./images/promotion-service-processor.png" alt="promotion service processor">  
+1. Create new promotion file in PromotionProcess.cs under ServiceProcessor.   
 2. Add the code and replace the file name into the ServiceProcessor `ItemGroup` as below:  
     ```sh
     <Compile Update="NewPromotion.cs">

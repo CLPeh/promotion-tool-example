@@ -40,7 +40,10 @@ If the total prize is 48 that means half hours will release 1 prize (2 prizes/hr
 i.e. The bet range is 2, 5, 10, 30, 50, 100. Then, the Min Bet = 2 and Max Bet = 5 or the Min Bet = 5, Max Bet = 10, and etc.
 4. Prize Count - To set the prize amount for the different prize multipliers such as 1 prize for x100, 2 prizes for x50, 25 prizes for x30 and etc..
 5. Time Before Win Probability Increases - The win probability will increase by dropping the Min Bet required to the smallest bet range if the prize is remaining in undistributed status after the time set.  
-i.e Based on Figure 1, the Time Before Win Probability Increases is set at 1 hour, then if the prize is still remaining distributed status the Min Bet will drop to 2 to increase the probability for the players to win the prize.
+i.e Based on Figure 1, the Time Before Win Probability Increases is set at 1 hour, then if the prize is still remaining distributed status the Min Bet will drop to 2 to increase the probability for the players to win the prize.  
+   
+   <img src="./src/images/Figure1.png">  
+   
 ------
   
   </details>

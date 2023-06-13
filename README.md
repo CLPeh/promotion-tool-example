@@ -87,11 +87,11 @@ Kindly refer to the guidelines and documentation related to this topic.
   - [Contributing](./src/dev-setup.md#contributing)
 
 </details>
-<details><summary> API and Grpc </summary>
+<details><summary> API Information </summary>
 
-  - [API Endpoints](./src/api-interfaces.md#api-endpoints)
   - [Grpc](./src/api-interfaces.md#grpc-services)
   - [Management Grpc](./src/api-interfaces.md#management-grpc-services)
+  - [API Involved in Other Services](./src/api-interfaces.md#api-involved-in-other-services)
 
 </details>
 <details><summary> Architecture and Design </summary>
@@ -102,6 +102,7 @@ Kindly refer to the guidelines and documentation related to this topic.
 
 </details>
 
+- [Create New Promotion Developer Guide](./src/create-promotion-developer-guide.md)
 - [Testing and Quality Assurance](./src/unit-testing.md)
 - [Release Notes](https://github.com/CLPeh/promotion-tool-example/releases)
 - [Issues Tracking and Bugs Report](./src/bug-report.md)

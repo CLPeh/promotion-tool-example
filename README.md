@@ -103,6 +103,6 @@ Kindly refer to the guidelines and documentation related to this topic.
 </details>
 
 - [Create New Promotion Developer Guide](./src/create-promotion-developer-guideline.md)
-- [Testing and Quality Assurance](./src/unit-testing.md)
+- [Unit Testing](./src/unit-testing.md)
 - [Release Notes](https://github.com/CLPeh/promotion-tool-example/releases)
 - [Issues Tracking and Bugs Report](./src/bug-report.md)

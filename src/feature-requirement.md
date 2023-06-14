@@ -1,5 +1,4 @@
 # Feature and Requirements
-Update Promotion Information
   
 ### Feature Overview  
 The Promotion Update feature enables users to modify promotion information within the application. It provides a user-friendly interface for users to edit and save changes to the promotion data.

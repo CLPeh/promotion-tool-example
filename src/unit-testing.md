@@ -1,9 +1,9 @@
 # Unit Testing
 
 Do the unit testing based on [AAA Testing Structure](https://www.c-sharpcorner.com/UploadFile/dacca2/fundamental-of-unit-testing-understand-aaa-in-unit-testing/)
-- Arrange: initialize data (map value into request)
-- Act: execute function (run method)
-- Assert: compare result with expectation
+- Arrange: initialize data (map value into request, do the necessary setup of the test)
+- Act: execute function (do the actual unit testing and the result will be obtained from the test application)
+- Assert: check and verify the returned result with expected results
 
 ## Test Case
 **CreatePromotion**  
